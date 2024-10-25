@@ -1,0 +1,12 @@
+.table-row {
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.table-row.active {
+    background-color: aquamarine;
+}
